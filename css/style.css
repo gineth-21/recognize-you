@@ -1,6 +1,47 @@
-body{
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: whitesmoke;
+    margin: 0;
+    padding: 120px 30px 30px 30px;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-tecnologia-alta-tecnologia-digital_29971-1258.jpg);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+body {
+    background-color: whitesmoke;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+
+p{
+    font-size: 20px;
+    color: black;
+    margin: 30px;
+    text-align: center;
+}
+.title-1 {
+    font-weight: bold;
+    color: #191970;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+button {
+    background-color: #191970;
+    color: whitesmoke;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: #000080;
+    font-weight: bold;
+}
+
+
