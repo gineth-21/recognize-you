@@ -79,6 +79,11 @@
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
+
+    /*Alerta al reconocer el rostro*/
+    if  (prediction[1].className === "Gineth" && prediction[1].probability > 0.7) {
+        alert("¡Hola Gineth! Tu rostro ha sido reconocido con un 100% de precisión. ¡Bienvenida a Recognize You!");
+    }
 </script>
 
 </body>
